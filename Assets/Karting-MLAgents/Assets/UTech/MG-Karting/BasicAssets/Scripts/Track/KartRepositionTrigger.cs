@@ -26,7 +26,7 @@ namespace KartGame.Track
 
         void Update ()
         {
-            if (Input.GetButtonDown ("Reset"))
+            if (Input.GetButtonDown ("Cancel"))
             {
                 trackManager.ReplaceMovable (m_Movable);
             }
